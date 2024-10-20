@@ -71,7 +71,7 @@ OrionLib:MakeNotification({
 
 local Tab = Window:MakeTab({
 	Name = "音乐",
-	Icon = "rbxassetid://10527577695",
+	Icon = "rbxassetid://17360377302",
 	PremiumOnly = false
 })
 
@@ -130,9 +130,7 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "自然灾害2",
 	Callback = function()
-     loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/LoadstringUjHI6RQpz2o8", true))()
-  	end    
-})
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralsp
 
 local Tab = Window:MakeTab({
     Name = "通用",
@@ -396,34 +394,3 @@ Stepped = game:GetService("RunService").Stepped:Connect(function()
 end)
     end
 })
-
-local Tab = Window:MakeTab({
-    Name = "通用",
-    Icon = "rbxassetid://17360377302",
-    PremiumOnly = false
-})
-Tab:AddButton({
-    Name ="名字",
-    Callback = function()
-    loadstring
-    end
-})
-Tab:AddButton({
-    Name ="飞车",
-    Callback = function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/G3GnBCyC", true))()
-    end
-})
-Tab:AddButton({
-    Name ="飞行",
-    Callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
-    end
-})
-Tab:AddButton({
-    Name = "隐身按E",
-	Callback = function()
-	 loadstring(game:HttpGet('https://pastebin.com/raw/nwGEvkez'))()
-	end
-})
-
